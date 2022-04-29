@@ -17,6 +17,9 @@ spec:
     spec:
       serviceAccountName: fluent-bit
       containers:
+      - command:
+        - sleep
+        - "3000"  
       - image: amazon/aws-cli
         name: nginx
 
