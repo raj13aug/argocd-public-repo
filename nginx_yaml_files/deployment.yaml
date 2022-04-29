@@ -20,6 +20,6 @@ spec:
       - command:
         - sleep
         - "3000"  
-      - image: amazon/aws-cli
+        image: amazon/aws-cli
         name: nginx
 
