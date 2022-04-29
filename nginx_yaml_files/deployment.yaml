@@ -15,6 +15,6 @@ spec:
         app: nginx
     spec:
       containers:
-      - image: nginx-unprivileged
+      - image: ubuntu/nginx
         name: nginx
 
