@@ -15,6 +15,6 @@ spec:
         app: nginx
     spec:
       containers:
-      - image: ubuntu/nginx
+      - image: busybox
         name: nginx
 
