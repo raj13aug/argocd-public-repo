@@ -4,9 +4,8 @@ metadata:
   labels:
     app: nginx
   name: nginx-deployment
-  namespace: logging
+  namespace: logging  
 spec:
-  serviceAccountName: fluent-bit
   replicas: 1
   selector:
     matchLabels:
@@ -16,6 +15,7 @@ spec:
       labels:
         app: nginx
     spec:
+      serviceAccountName: fluent-bit
       containers:
       - image: nginx
         name: nginx
