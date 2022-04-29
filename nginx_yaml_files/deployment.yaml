@@ -17,6 +17,6 @@ spec:
     spec:
       serviceAccountName: fluent-bit
       containers:
-      - image: nginx
+      - image: amazon/aws-cli
         name: nginx
 
